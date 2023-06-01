@@ -31,12 +31,13 @@ body{
 }
 .nav-bar >h4:hover{
     color: rgb(231, 14, 14);
-    
-    
+}
+a{
+    text-decoration: none;
 }
 /* aqui inicia la sesion de servicios */
 
-.servicios{
+.servicios .habilidades{
 
     padding: 5rem;
     display: flex;
@@ -64,4 +65,54 @@ body{
     line-height: 32px;
     text-align: justify;
     padding-top: 4rem;
+}
+/* aqui inicia la sesion de habilidades*/
+.habilidades{
+    
+    padding-bottom: 3rem;
+    
+}
+.habilidades-title{
+    margin-bottom: 3rem;
+}
+.img-habilidades{
+background-color: rgb(252, 246, 246);
+display: flex;
+
+justify-content: center;
+justify-items: center;
+align-content: center;
+align-items: center;
+gap: 3rem;
+}
+
+
+
+.row1 > img{
+width: 150px;
+border-radius: 50%;
+margin: .5rem;
+
+}
+.row2 > img{
+    width: 150px;
+    border-radius: 50%;
+    margin: .5rem;
+    
+}
+.row3 > img{
+    width: 150px;
+    border-radius: 50%;
+    margin: .5rem;
+    
+}
+.misHabilidades{
+  
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 3rem;
+
 }
