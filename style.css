@@ -116,3 +116,23 @@ margin: .5rem;
     gap: 3rem;
 
 }
+/* aqui inicia la seccion de portafolio*/
+
+
+.img_proyect1{ 
+    width: 500px;
+    margin-top: 4rem;
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 1rem; 
+}
+.mi_portafolio{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.parrafo-portafolio{
+    margin: 1rem;
+}
